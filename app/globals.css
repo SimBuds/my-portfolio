@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #ffffff;
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-family: "Calibri", sans-serif;
+}
